@@ -1,25 +1,25 @@
-# AccordionNavList
+# AccordionList
 
-A grouping container for AccordionNavListItem elements within an AccordionNav. Renders a `<div>` with `role="group"` to semantically group the set of disclosure widgets.
+A grouping container for AccordionListItem elements within an AccordionNav. Renders a `<div>` with `role="group"` to semantically group the set of disclosure widgets.
 
 ## Props
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
 | label | string | "" | Optional accessible name for the group via aria-label |
-| children | Snippet | required | AccordionNavListItem elements |
+| children | Snippet | required | AccordionListItem elements |
 | ...restProps | HTML attributes | — | Spread onto the `<div>` |
 
 ## Usage
 
 ```svelte
 <AccordionNav label="FAQ">
-  <AccordionNavList label="Questions">
-    <AccordionNavListItem>
+  <AccordionList label="Questions">
+    <AccordionListItem>
       <summary>What is this?</summary>
       <p>A design system.</p>
-    </AccordionNavListItem>
-  </AccordionNavList>
+    </AccordionListItem>
+  </AccordionList>
 </AccordionNav>
 ```
 

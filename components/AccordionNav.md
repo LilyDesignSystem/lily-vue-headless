@@ -2,26 +2,26 @@
 
 A navigation container for an accordion. Renders a `<nav>` element with an accessible label, serving as the outermost wrapper for collapsible accordion content. Commonly used for FAQs, settings panels, filter groups, and mobile navigation menus.
 
-Compound component: use with AccordionNavList and AccordionNavListItem.
+Compound component: use with AccordionList and AccordionListItem.
 
 ## Props
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
 | label | string | required | Accessible name via aria-label |
-| children | Snippet | required | AccordionNavList element |
+| children | Snippet | required | AccordionList element |
 | ...restProps | HTML attributes | — | Spread onto the `<nav>` |
 
 ## Usage
 
 ```svelte
 <AccordionNav label="Frequently Asked Questions">
-  <AccordionNavList>
-    <AccordionNavListItem>
+  <AccordionList>
+    <AccordionListItem>
       <summary>What is this?</summary>
       <p>A design system.</p>
-    </AccordionNavListItem>
-  </AccordionNavList>
+    </AccordionListItem>
+  </AccordionList>
 </AccordionNav>
 ```
 

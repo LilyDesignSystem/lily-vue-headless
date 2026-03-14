@@ -1,8 +1,8 @@
 <script setup lang="ts">
 
-    // AccordionNavListItem component
+    // AccordionListItem component
     //
-    // A single expandable section within an AccordionNavList, using the native
+    // A single expandable section within an AccordionList, using the native
     // HTML <details> element for built-in disclosure behavior. The consumer
     // provides a <summary> element (the clickable header) and content (the
     // expandable body) as children. The open prop is two-way bindable via
@@ -16,23 +16,23 @@
     //   ...restProps — additional HTML attributes spread onto <details>.
     //
     // Syntax:
-    //   <AccordionNavListItem>
+    //   <AccordionListItem>
     //     <summary>Header</summary>
     //     <p>Content</p>
-    //   </AccordionNavListItem>
+    //   </AccordionListItem>
     //
     // Examples:
     //   <!-- Basic accordion item -->
-    //   <AccordionNavListItem>
+    //   <AccordionListItem>
     //     <summary>What is Vue?</summary>
     //     <p>A compiler-based UI framework.</p>
-    //   </AccordionNavListItem>
+    //   </AccordionListItem>
     //
     //   <!-- Pre-expanded with binding -->
-    //   <AccordionNavListItem v-model:open={isOpen}>
+    //   <AccordionListItem v-model:open={isOpen}>
     //     <summary>Details</summary>
     //     <p>Expanded content.</p>
-    //   </AccordionNavListItem>
+    //   </AccordionListItem>
     //
     // Keyboard:
     //   - Tab: Focus the summary element
@@ -46,7 +46,7 @@
     //   - No hardcoded text; all content comes through children
     //
     // Claude rules:
-    //   - Compound component — use inside AccordionNavList
+    //   - Compound component — use inside AccordionList
     //   - Headless: no CSS, no styles — consumer provides all styling
     //   - Do not replace native <details> with custom ARIA widgets
     //   - The open prop must use defineModel() for two-way binding
@@ -59,9 +59,9 @@
 </script>
 
 <template>
-    <!-- AccordionNavListItem.vue -->
+    <!-- AccordionListItem.vue -->
     <details
-        class="accordion-nav-list-item"
+        class="accordion-list-item"
         :open="open"
     >
         <slot />

@@ -1,6 +1,6 @@
-# TreeNavList
+# TreeList
 
-TreeNavList is a headless hierarchical list component that uses the ARIA `tree` role with full keyboard navigation. It provides an accessible container for displaying nested or flat tree structures such as file browsers, organizational charts, or navigation menus.
+TreeList is a headless hierarchical list component that uses the ARIA `tree` role with full keyboard navigation. It provides an accessible container for displaying nested or flat tree structures such as file browsers, organizational charts, or navigation menus.
 
 This component manages keyboard navigation between tree items using ArrowDown, ArrowUp, Home, and End keys with wrapping behavior. Consumers provide the tree items as children with `role="treeitem"` and `tabindex` attributes, and bring their own styling for indentation, expansion indicators, and visual hierarchy.
 
@@ -23,10 +23,10 @@ This component manages keyboard navigation between tree items using ArrowDown, A
 ## Usage
 
 ```svelte
-<TreeNavList label="File browser">
+<TreeList label="File browser">
   <li role="treeitem" tabindex="0">Documents</li>
   <li role="treeitem" tabindex="-1">Photos</li>
-</TreeNavList>
+</TreeList>
 ```
 
 ## Keyboard Interactions
@@ -43,5 +43,5 @@ This component manages keyboard navigation between tree items using ArrowDown, A
 
 ## References
 
-- WAI-ARIA Tree View Pattern: https://www.w3.org/WAI/ARIA/apg/patterns/TreeNavList/
+- WAI-ARIA Tree View Pattern: https://www.w3.org/WAI/ARIA/apg/patterns/TreeList/
 - WAI-ARIA tree role: https://www.w3.org/TR/wai-aria-1.2/#tree

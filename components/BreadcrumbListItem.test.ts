@@ -1,10 +1,10 @@
 import { render, screen } from "@testing-library/vue";
 import { describe, expect, test } from "vitest";
 
-import Subject from "./BreadcrumbNavListItem.vue";
+import Subject from "./BreadcrumbListItem.vue";
 
 
-describe("BreadcrumbNavListItem", () => {
+describe("BreadcrumbListItem", () => {
   test("renders a list item", () => {
     render(Subject, { props: { "data-testid": "bli" }, slots: { default: "Home" } });
     expect(screen.getByTestId("bli").tagName).toBe("LI");

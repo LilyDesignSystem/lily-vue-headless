@@ -4,29 +4,29 @@
     //
     // A navigation landmark for a breadcrumb trail that shows the user's current
     // location within a site hierarchy. Renders a <nav> element with an accessible
-    // label. Contains a BreadcrumbNavList which holds BreadcrumbNavListItem children.
+    // label. Contains a BreadcrumbList which holds BreadcrumbListItem children.
     // Used in sites with deep hierarchies such as e-commerce catalogs,
     // documentation, and content management systems.
     //
     // Props:
     //   className — string, optional. CSS class name.
     //   label — string, required. Accessible name for the navigation landmark.
-    //   default slot. BreadcrumbNavList element.
+    //   default slot. BreadcrumbList element.
     //   ...restProps — additional HTML attributes spread onto the <nav>.
     //
     // Syntax:
     //   <BreadcrumbNav label="Breadcrumb">
-    //     <BreadcrumbNavList>...</BreadcrumbNavList>
+    //     <BreadcrumbList>...</BreadcrumbList>
     //   </BreadcrumbNav>
     //
     // Examples:
     //   <!-- Full breadcrumb navigation -->
     //   <BreadcrumbNav label="Breadcrumb">
-    //     <BreadcrumbNavList>
-    //       <BreadcrumbNavListItem><a href="/">Home</a></BreadcrumbNavListItem>
-    //       <BreadcrumbNavListItem><a href="/products">Products</a></BreadcrumbNavListItem>
-    //       <BreadcrumbNavListItem current>Widget</BreadcrumbNavListItem>
-    //     </BreadcrumbNavList>
+    //     <BreadcrumbList>
+    //       <BreadcrumbListItem><a href="/">Home</a></BreadcrumbListItem>
+    //       <BreadcrumbListItem><a href="/products">Products</a></BreadcrumbListItem>
+    //       <BreadcrumbListItem current>Widget</BreadcrumbListItem>
+    //     </BreadcrumbList>
     //   </BreadcrumbNav>
     //
     // Keyboard:
@@ -41,7 +41,7 @@
     //   - Label text comes through the label prop; no hardcoded strings
     //
     // Claude rules:
-    //   - Compound component — use with BreadcrumbNavList and BreadcrumbNavListItem
+    //   - Compound component — use with BreadcrumbList and BreadcrumbListItem
     //   - Headless: no CSS, no styles — consumer provides all styling
     //
     // References:

@@ -47,7 +47,7 @@
     //   - Uses ref() for internal DOM reference
     //
     // References:
-    //   - WAI-ARIA Tree View Pattern: https://www.w3.org/WAI/ARIA/apd/patterns/TreeNavList/
+    //   - WAI-ARIA Tree View Pattern: https://www.w3.org/WAI/ARIA/apd/patterns/TreeList/
 
     import { ref } from "vue";
 

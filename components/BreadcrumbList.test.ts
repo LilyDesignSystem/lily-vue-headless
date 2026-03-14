@@ -1,11 +1,11 @@
 import { render, screen } from "@testing-library/vue";
 import { describe, expect, test } from "vitest";
 
-import Subject from "./BreadcrumbNavList.vue";
+import Subject from "./BreadcrumbList.vue";
 
 
 
-describe("BreadcrumbNavList", () => {
+describe("BreadcrumbList", () => {
   test("renders an ordered list", () => {
     render(Subject, { slots: { default: "items" } });
     expect(screen.getByRole("list").tagName).toBe("OL");

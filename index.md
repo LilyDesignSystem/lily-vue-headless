@@ -141,8 +141,9 @@ Component names follow a suffix-based pattern that indicates the root HTML eleme
 
 - **accordion**:
   - **accordion-nav**: a navigation container for collapsible accordion information
-  - **accordion-nav-list**: an ordered list of accordion nav list item components
-  - **accordion-nav-list-item**: one accordion nav list item component
+  - **accordion-list**: an ordered list of accordion list item components
+  - **accordion-list-item**: one accordion list item component
+  - **accordion-link**: one accordion link in the trail
 - **action-link**: a hyperlink styled as an action trigger
 - **ai-label**: an indicator of AI instances that is a pathway to AI explainability
 - **alert-dialog**: a modal dialog for urgent messages requiring user acknowledgment
@@ -159,8 +160,9 @@ Component names follow a suffix-based pattern that indicates the root HTML eleme
 - **beach-ball**: a decorative animated beach ball element
 - **breadcrumb**:
   - **breadcrumb-nav**: a navigation container for breadcrumb trail links
-  - **breadcrumb-nav-list**: an ordered list of breadcrumb navigation items
-  - **breadcrumb-nav-list-item**: one breadcrumb navigation link in the trail
+  - **breadcrumb-list**: an ordered list of breadcrumb navigation items
+  - **breadcrumb-list-item**: one breadcrumb navigation link in the trail
+  - **breadcrumb-link**: one breadcrumb link in the trail
 - **button**: a generic clickable button element
 - **button-input**: an input element of type button for form actions
 - **calendar-table**:
@@ -183,7 +185,7 @@ See the [parent project](https://github.com/LilyDesignSystem/lily) for the full 
 - \*Input \*Link: TelInput TelLink, EmailInput EmailLink
 - \*List \*ListItem: CheckList, ContentsList, DoList, DontList, PaginationList, SummaryList, TaskList, TimelineList
 - \*Menu \*MenuItem: ContextMenu ContextMenuItem, Menu MenuItem
-- \*Nav \*NavList \*NavListItem: AccordionNav, BreadcrumbNav, ContentsNav, PaginationNav, TreeNav TreeNavList TreeNavListItem
+- \*Nav \*List \*ListItem: AccordionNav, BreadcrumbNav, ContentsNav, PaginationNav, TreeNav TreeList TreeListItem
 - \*Picker \*PickerButton: ColorPicker, FiveFaceRatingPicker, FiveStarRatingPicker, NetPromoterScorePicker, RedAmberGreenPicker, RedOrangeYellowGreenBluePicker
 - \*Select \*SelectOption: ThemeSelect ThemeSelectOption
 - \*Table \*TableHead \*TableBody \*TableFoot \*TableCol \*TableRow \*TableData: CalendarTable, DataTable, GanttTable, KanbanTable, Table

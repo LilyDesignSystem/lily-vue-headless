@@ -1,10 +1,10 @@
 import { render, screen } from "@testing-library/vue";
 import { describe, expect, test } from "vitest";
 
-import Subject from "./AccordionNavList.vue";
+import Subject from "./AccordionList.vue";
 
 
-describe("AccordionNavList", () => {
+describe("AccordionList", () => {
   test("renders a group", () => {
     render(Subject, { slots: { default: "content" } });
     expect(screen.getByRole("group")).toBeTruthy();

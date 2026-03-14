@@ -1,35 +1,35 @@
 <script setup lang="ts">
 
-    // AccordionNavList component
+    // AccordionList component
     //
-    // AccordionNavList elements within an AccordionNav. Provides an optional
+    // AccordionList elements within an AccordionNav. Provides an optional
     // accessible label for the list.
     //
     // Props:
     //   className — string, optional. CSS class name.
     //   label — string, optional. Accessible name for the group via aria-label.
-    //   default slot. AccordionNavListItem elements.
+    //   default slot. AccordionListItem elements.
     //   ...restProps — additional HTML attributes spread onto the <div>.
     //
     // Syntax:
     //   <AccordionNav>
-    //     <AccordionNavList>
-    //       <AccordionNavListItem>...</AccordionNavListItem>
-    //     </AccordionNavList>
+    //     <AccordionList>
+    //       <AccordionListItem>...</AccordionListItem>
+    //     </AccordionList>
     //   </AccordionNav>
     //
     // Examples:
     //   <AccordionNav label="My Nav">
-    //     <AccordionNavList label="Questions">
-    //       <AccordionNavListItem>
+    //     <AccordionList label="Questions">
+    //       <AccordionListItem>
     //         <summary>What is this?</summary>
     //         <p>A design system.</p>
-    //       </AccordionNavListItem>
-    //     </AccordionNavList>
+    //       </AccordionListItem>
+    //     </AccordionList>
     //  </AccordionNav>
     //
     // Keyboard: None — passive container. Keyboard interactions are handled
-    // by AccordionNavListItem children.
+    // by AccordionListItem children.
     //
     // Accessibility:
     //   - aria-label optionally provides an accessible name for the group
@@ -39,7 +39,7 @@
     //   - No hardcoded text
     //
     // Claude rules:
-    //   - Compound component — used inside AccordionNav, contains AccordionNavListItem children
+    //   - Compound component — used inside AccordionNav, contains AccordionListItem children
     //   - Headless: no CSS, no styles — consumer provides all styling
     //
     // References:
@@ -55,9 +55,9 @@
 </script>
 
 <template>
-    <!-- AccordionNavList.vue -->
+    <!-- AccordionList.vue -->
     <ol
-        class="accordion-nav-list"
+        class="accordion-list"
         role="group"
         :aria-label="label || undefined"
     >

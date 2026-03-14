@@ -2,10 +2,10 @@ import { render, screen } from "@testing-library/vue";
 import userEvent from "@testing-library/user-event";
 import { describe, expect, test, vi } from "vitest";
 
-import Subject from "./AccordionNavListItem.vue";
+import Subject from "./AccordionListItem.vue";
 
 
-describe("AccordionNavListItem", () => {
+describe("AccordionListItem", () => {
   test("renders a details element", () => {
     render(Subject, { props: { "data-testid": "ali" }, slots: { default: "<summary>Header</summary>" } });
     expect(screen.getByTestId("ali").tagName).toBe("DETAILS");
