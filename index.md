@@ -1,10 +1,10 @@
 # Lily Design System - Vue Headless
 
-A headless Vue 3 component library with 290 components. All components are headless (no built-in styles), fully accessible (WCAG 2.2 AAA), and use Vue 3 Composition API with `<script setup lang="ts">`.
+A headless Vue 3 component library with 291 components. All components are headless (no built-in styles), fully accessible (WCAG 2.2 AAA), and use Vue 3 Composition API with `<script setup lang="ts">`.
 
 ## Features
 
-- 290 headless Vue components
+- 291 headless Vue components
 - TypeScript with full type definitions
 - WCAG 2.2 AAA accessibility compliance
 - Full keyboard navigation support
