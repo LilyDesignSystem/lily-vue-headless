@@ -16,7 +16,7 @@
 
 ## Project Overview
 
-A headless Vue 3 component library with 307 accessible, unstyled components.
+A headless Vue 3 component library with 309 accessible, unstyled components.
 
 ## IMPORTANT Architecture
 
