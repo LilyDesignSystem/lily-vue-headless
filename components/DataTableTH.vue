@@ -38,7 +38,7 @@
 <template>
     <!-- DataTableTD.vue -->
     <th
-        class="data-table-col"
+        class="data-table-th"
         :scope="scope"
         :colspan="colspan || undefined"
         :rowspan="rowspan || undefined"

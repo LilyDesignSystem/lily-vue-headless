@@ -4,30 +4,30 @@
     //
     // A headless component that wraps a native <textarea> and a character counter
     // caption inside a <div>. The counter displays "[number] of [maximum] characters"
-    // below the textarea and updates reactively as the user types.
+    // below the text-area-input and updates reactively as the user types.
     //
     // Props:
-    //   label — string, required. Accessible name for the textarea via aria-label.
+    //   label — string, required. Accessible name for the text-area-input via aria-label.
     //   maxLength — number, required. Maximum number of characters allowed.
     //   counterTemplate — string, default "{count} of {max} characters". Counter text template.
     //   rows — number, optional. Number of visible text rows.
-    //   placeholder — string, optional. Placeholder text for the textarea.
-    //   required — boolean, default false. Whether the textarea is required.
-    //   disabled — boolean, default false. Whether the textarea is disabled.
+    //   placeholder — string, optional. Placeholder text for the text-area-input.
+    //   required — boolean, default false. Whether the text-area-input is required.
+    //   disabled — boolean, default false. Whether the text-area-input is disabled.
     //
     // Models:
-    //   modelValue — string, default "". Bindable textarea value.
+    //   modelValue — string, default "". Bindable text-area-input value.
     //
     // Syntax:
     //   <TextAreaInputWithCharacterCounter label="Feedback" :maxLength="500" v-model="text" />
     //
     // Keyboard:
-    //   - Tab: Focus the textarea (native browser behavior)
-    //   - Standard textarea keyboard interactions
+    //   - Tab: Focus the text-area-input (native browser behavior)
+    //   - Standard text-area-input keyboard interactions
     //
     // Accessibility:
-    //   - aria-label on the textarea provides accessible name
-    //   - aria-describedby links textarea to the counter
+    //   - aria-label on the text-area-input provides accessible name
+    //   - aria-describedby links text-area-input to the counter
     //   - aria-live="polite" on counter announces updates to screen readers
     //
     // Internationalization:

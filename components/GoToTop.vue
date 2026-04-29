@@ -7,9 +7,9 @@
 </script>
 
 <template>
-  <!-- BackToTop.vue -->
+  <!-- GoToTop.vue -->
   <a
-    class="back-to-top"
+    class="go-to-top"
     :aria-label="label"
   >
     <slot />

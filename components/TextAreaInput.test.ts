@@ -1,10 +1,10 @@
 import { render, screen } from "@testing-library/vue";
 import { describe, expect, test } from "vitest";
 
-import Subject from "./Textarea.vue";
+import Subject from "./TextAreaInput.vue";
 
-describe("Textarea", () => {
-    test("renders a textarea", () => {
+describe("TextAreaInput", () => {
+    test("renders a text-area-input", () => {
         render(Subject, { props: { label: "Comments" } });
         expect(screen.getByRole("textbox")).toBeTruthy();
     });

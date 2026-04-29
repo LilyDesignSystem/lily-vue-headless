@@ -38,7 +38,7 @@
 <template>
     <!-- KanbanTableTD.vue -->
     <th
-        class="kanban-table-col"
+        class="kanban-table-th"
         :scope="scope"
         :colspan="colspan || undefined"
         :rowspan="rowspan || undefined"

@@ -38,7 +38,7 @@
 <template>
     <!-- CalendarTableTD.vue -->
     <th
-        class="calendar-table-col"
+        class="calendar-table-th"
         :scope="scope"
         :colspan="colspan || undefined"
         :rowspan="rowspan || undefined"
