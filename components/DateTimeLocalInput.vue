@@ -22,7 +22,7 @@
     //   <DateTimeLocalInput label="Event start" v-model />
     //
     // Examples:
-    //   <!-- Datetime input with min/max constraints -->
+    //   <!-- DateTime input with min/max constraints -->
     //   <DateTimeLocalInput label="Appointment" v-model min="2024-01-01T08:00" max="2024-12-31T18:00" />
     //   <!-- Required and conditionally disabled -->
     //   <DateTimeLocalInput label="Departure time" v-model required disabled={isLocked} />
